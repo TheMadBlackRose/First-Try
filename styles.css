@@ -62,42 +62,21 @@ a:hover {
 	animation: bounce 1s;
 }
 
-main {
-	display: flex;
-	border: 1px solid red;
-	height: 100vh;
-	align-items: center;
-	justify-content: center;
-}
-
-.content-right {
-	border: #c4c4f7;
-	display: flex;
-	justify-content: center;
-	align-items: right;
-	width: 250px;
-	height: 250px;
-}
-
-.content-left {
-	border: #000000;
-	margin-right: 45rem;
-	width: 8rem;
-	height: 8rem;
-}
-
-main h1 {
+.section1 h1 {
 	font-size: 15px;
 	color: #133b4f;
 	text-transform: uppercase;
+	width: 250px;
 }
 
-main h2 {
+.section1 h2 {
+	width: 250px;
 	font-size: 8px;
 	color: aqua;
 	font-weight: 300;
 	text-transform: uppercase;
 }
+
 
 .cta {
 	padding: 15px 30px;
@@ -121,3 +100,5 @@ main h2 {
 	text-transform: uppercase;
 	border-radius: 50px;
 }
+
+
