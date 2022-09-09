@@ -1,6 +1,8 @@
 // some * stuff+font
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap');
 
+/* background and some wrapper for main sections */
+
 .wrapper {
 	display: flex;
 	flex-flow: row wrap;
@@ -25,7 +27,7 @@ body {
 	padding: 0;
 	font-family: Oswald;
 }
-
+/* Hedaer Section and studff related to that */
 header {
 	height: 100px;
 	display: flex;
@@ -78,6 +80,8 @@ a {
 a:hover {
 	animation: bounce 1s;
 }
+
+/* First section and stuff related to that  */
 
 .firstsec {
 	flex-direction: row;
@@ -145,3 +149,5 @@ main h2 {
 img {
 	border-radius: 20px;
 }
+
+/* 2nd  section and stuff related to that */
